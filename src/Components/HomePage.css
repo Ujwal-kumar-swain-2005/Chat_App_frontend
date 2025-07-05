@@ -1,0 +1,28 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+body {
+  background: #aeffb1;
+}
+
+
+.names{
+  color: rgb(141, 141, 141);
+  font-size: 15px;
+}
+
+
+.names2{
+  color: rgb(89, 89, 89);
+  font-size: 15px;
+  margin-top: 7px;
+}
+
+.chat-background {
+  background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yODEtYWRqLTA0Mi5qcGc.jpg');
+  background-size: cover;
+  background-position: center;
+}

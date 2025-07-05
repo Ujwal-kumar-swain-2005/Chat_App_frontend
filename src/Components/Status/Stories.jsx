@@ -1,0 +1,34 @@
+export const stories = [
+  {
+    image:
+      "https://i.pinimg.com/564x/4b/51/bf/4b51bfac8036ad9db59013260ebd37fe.jpg",
+  },
+  {
+    image:
+      "https://i.pinimg.com/564x/be/67/dd/be67dd5df3cac509d56a0182e03a6985.jpg",
+  },
+  {
+    image:
+      "https://i.pinimg.com/564x/42/81/59/4281596b3a31a716e5369ada8473d230.jpg",
+  },
+  {
+    image:
+      "https://i.pinimg.com/736x/a7/5c/be/a75cbe020e67fafcac95952ea1aa3bab.jpg",
+  },
+  {
+    image:
+      "https://i.pinimg.com/564x/b4/d9/1d/b4d91d9efaf4d6f1b9924ddfa51ce9de.jpg",
+  },
+  {
+    image:
+      "https://i.pinimg.com/564x/fc/03/ef/fc03efbbd8f8f24e7c41e1bc6f0ba854.jpg",
+  },
+  {
+    image:
+      "https://i.pinimg.com/564x/42/81/59/4281596b3a31a716e5369ada8473d230.jpg",
+  },
+  {
+    image:
+      "https://i.pinimg.com/736x/a7/5c/be/a75cbe020e67fafcac95952ea1aa3bab.jpg",
+  },
+];
