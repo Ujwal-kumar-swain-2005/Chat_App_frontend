@@ -1,7 +1,6 @@
 import { BASE_API_URL } from "../../Config/api";
 import { LOGIN, LOGOUT, REGISTER, REQ_USER, SEARCH_USER, UPDATE_USER } from "./ActionType";
 
-//siginup
 export const register = (data) => async (dispatch) => {
   try {
     const res = await fetch(`${BASE_API_URL}/auth/signup`, {

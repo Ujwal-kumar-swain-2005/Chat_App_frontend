@@ -1,28 +1,117 @@
+body {
+  background: linear-gradient(135deg, #aeffb1 0%, #e0ffe7 100%);
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  margin: 0;
+}
+
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 7px;
+  background: #f0f0f0;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: gray;
-}
-body {
-  background: #aeffb1;
+  background: #b2b2b2;
+  border-radius: 10px;
 }
 
-
-.names{
-  color: rgb(141, 141, 141);
+.names {
+  color: #8d8d8d;
   font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
-
-.names2{
-  color: rgb(89, 89, 89);
+.names2 {
+  color: #595959;
   font-size: 15px;
   margin-top: 7px;
+  font-weight: 600;
 }
 
 .chat-background {
-  background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yODEtYWRqLTA0Mi5qcGc.jpg');
+  background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVzX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yODEtYWRqLTA0Mi5qcGc.jpg');
   background-size: cover;
   background-position: center;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 16px;
+  margin-bottom: 12px;
+  transition: box-shadow 0.2s;
+}
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.button {
+  background: #5b5b5b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.2s;
+}
+.button:hover {
+  background: #3a3a3a;
+}
+
+.input {
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.2s;
+}
+.input:focus {
+  border-color: #aeffb1;
+}
+
+.chat-bubble {
+  background: #f7fff7;
+  border-radius: 16px 16px 16px 4px;
+  padding: 10px 16px;
+  margin: 8px 0;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  font-size: 15px;
+  max-width: 70%;
+  word-break: break-word;
+}
+
+.chat-bubble.me {
+  background: #aeffb1;
+  border-radius: 16px 16px 4px 16px;
+  margin-left: auto;
+}
+
+.avatar {
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  border: 2px solid #aeffb1;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.status-indicator {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #44d600;
+  box-shadow: 0 0 4px #44d600;
+}
+.status-indicator.offline {
+  background: #b2b2b2;
+  box-shadow: none;
 }

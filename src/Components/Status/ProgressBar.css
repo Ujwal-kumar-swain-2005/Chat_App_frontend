@@ -1,18 +1,23 @@
-.progress-bar-container{
-   width: 100%;
-   height: 4px;
-   background-color: white;
-   border-radius: 4px;
-   overflow: hidden;
-   opacity: 0.5;
-   transition: opacity .3s ease-out;
-   margin: 1rem;
+.progress-bar-container {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 4px;
+  border-radius: 4px;
+  margin: 0 2px;
+  flex: 1;
+  overflow: hidden;
 }
-.progress-bar-container .active {
-   opacity: 1;
+
+.progress-bar {
+  background-color: #fff;
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.1s linear;
 }
-.progress-bar{
-   height: 100%;
-   background-color: rgb(39, 39, 255);
-   border-radius: 4px;
+
+.active .progress-bar {
+  background-color: #fff;
+}
+
+.animated {
+  will-change: width;
 }
